@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Goodbye, cruel world!")
+        Text("Goodbye, very cruel world!")
             .padding()
     }
 }
