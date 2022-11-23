@@ -10,7 +10,7 @@ class ProductList: ObservableObject{
     @Published var products: [Product]
     
     init(){
-        products = [Product(), Product(name: "nwPhone", description: "", picture: "wPhone", quantity: 3000, price: 999.99), Product(name: "wPen", description: "", picture: "wPen", quantity: 300, price: 40.00), Product(name: "Software", description: "", picture: "software", quantity: 250, price: 150.00)]
+        products = [Product(), Product(name: "nwPhone", description: "", picture: "nwPhone", quantity: 3000, price: 999.99), Product(name: "wPen", description: "", picture: "wPen", quantity: 300, price: 40.00), Product(name: "Software", description: "", picture: "software", quantity: 250, price: 150.00)]
         }
     
 }
