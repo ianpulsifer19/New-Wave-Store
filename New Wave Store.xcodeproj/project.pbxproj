@@ -19,6 +19,7 @@
 		2E2EA93E292C05A000CE4057 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA93D292C05A000CE4057 /* Constants.swift */; };
 		2E2EA940292C074D00CE4057 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA93F292C074D00CE4057 /* ProductListView.swift */; };
 		2E2EA942292E65DB00CE4057 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA941292E65DB00CE4057 /* HomeView.swift */; };
+		2E2EA9442935307400CE4057 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA9432935307400CE4057 /* ProductDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2E2EA93D292C05A000CE4057 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2E2EA93F292C074D00CE4057 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		2E2EA941292E65DB00CE4057 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2E2EA9432935307400CE4057 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				2E2EA90D2927FECB00CE4057 /* ContentView.swift */,
 				2E2EA93F292C074D00CE4057 /* ProductListView.swift */,
 				2E2EA941292E65DB00CE4057 /* HomeView.swift */,
+				2E2EA9432935307400CE4057 /* ProductDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E2EA940292C074D00CE4057 /* ProductListView.swift in Sources */,
+				2E2EA9442935307400CE4057 /* ProductDetailView.swift in Sources */,
 				2E2EA942292E65DB00CE4057 /* HomeView.swift in Sources */,
 				2E2EA93E292C05A000CE4057 /* Constants.swift in Sources */,
 				2E2EA90E2927FECB00CE4057 /* ContentView.swift in Sources */,

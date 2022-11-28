@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State var products: ProductList = ProductList()
+    @EnvironmentObject var products: ProductList
     var body: some View {
-        List{
+        ScrollView{
             ForEach($products.products.indices){
                 index in
                 ProductListView(product: $products.products[index])
@@ -21,6 +21,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(products: ProductList())
+        HomeView().environmentObject(ProductList())
     }
 }
