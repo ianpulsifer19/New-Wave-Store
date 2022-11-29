@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ProductDetailView: View {
     @Binding var product: Product
+    @Binding var viewState: ViewState
+    
     var body: some View {
         VStack(alignment: .leading){
+            Button{
+                viewState = .list
+            }label:{
+                Text("Back")
+            }.padding().foregroundColor(Color.highlight)
             Image(product.picture).resizable().aspectRatio(contentMode: .fit).padding()
             Text("**\(product.name)**").font(Constants.textFont).padding([.leading, .bottom])
             Text(product.description).font(Constants.textFont).padding([.leading, .bottom])
@@ -29,6 +36,6 @@ struct ProductDetailView: View {
 
 struct ProductDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductDetailView(product: Binding.constant(Product()))
+        ProductDetailView(product: Binding.constant(Product()), viewState: Binding.constant(.list))
     }
 }
