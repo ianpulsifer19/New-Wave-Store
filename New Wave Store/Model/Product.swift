@@ -6,12 +6,18 @@
 //
 
 import Foundation
-class Product: ObservableObject{
+class Product: ObservableObject, Identifiable, Equatable{
+    static func == (lhs: Product, rhs: Product) -> Bool {
+        lhs.name == rhs.name
+    }
+
+    
     @Published var name: String
     @Published var description: String
     @Published var picture: String
     @Published var quantity: Int
     @Published var price: Double
+    let id: UUID = UUID()
     
     init(name: String = "NW-PC", description: String = "computer", picture: String = "NW-PC", quantity: Int = 100, price: Double = 100.0){
         self.name = name

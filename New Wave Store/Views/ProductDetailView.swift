@@ -10,7 +10,7 @@ import SwiftUI
 struct ProductDetailView: View {
     @Binding var product: Product
     @Binding var viewState: ViewState
-    
+    @EnvironmentObject var cart: Cart
     var body: some View {
         VStack(alignment: .leading){
             Button{
@@ -24,7 +24,10 @@ struct ProductDetailView: View {
             Text(String(format: "$%.2f" ,product.price)).font(Constants.textFont).foregroundColor(Color.highlight).padding([.leading, .bottom])
             Text("Quantity Available: \(product.quantity)").font(Constants.textFont).padding([.leading, .bottom])
             Spacer()
-            Button{}label: {
+            Button{
+                cart.addProduct(Product(name: product.name, description: product.description, picture: product.picture, quantity: 1, price: product.price))
+                product.quantity -= 1
+            }label: {
                 ZStack{
                     Rectangle().foregroundColor(Color.highlight).cornerRadius(10).padding().frame(height: 85)
                     Text("Add to Cart").font(Constants.textFont).foregroundColor(Color.black)
@@ -36,6 +39,6 @@ struct ProductDetailView: View {
 
 struct ProductDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductDetailView(product: Binding.constant(Product()), viewState: Binding.constant(.list))
+        ProductDetailView(product: Binding.constant(Product()), viewState: Binding.constant(.list)).environmentObject(Cart())
     }
 }

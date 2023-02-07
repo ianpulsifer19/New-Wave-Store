@@ -11,6 +11,10 @@ import SwiftUI
 enum ViewState{
     case list
     case detail
+    case authenticate
+    case signup
+    case login
+    case forgotpassword
 }
 
 struct Constants{

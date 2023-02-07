@@ -6,22 +6,27 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct HomeView: View {
     @EnvironmentObject var products: ProductList
+    @EnvironmentObject var userInfo: UserInfo
     @Binding var viewState: ViewState
     @Binding var index: Int
     
     var body: some View {
-        ScrollView{
-            ForEach($products.products.indices){
-                index in
-                ProductListView(product: $products.products[index]).onTapGesture {
-                    self.index = index
-                    viewState = .detail
+        VStack {
+            ScrollView{
+                ForEach($products.products.indices){
+                    index in
+                    ProductListView(product: $products.products[index]).onTapGesture {
+                        self.index = index
+                        viewState = .detail
+                    }
                 }
             }
         }
+        
     }
 }
 

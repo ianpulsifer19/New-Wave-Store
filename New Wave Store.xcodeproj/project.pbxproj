@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E13CB4E298C3ECD00A34317 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E13CB4D298C3ECD00A34317 /* GoogleService-Info.plist */; };
+		2E13CB5029916AC100A34317 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E13CB4F29916AC100A34317 /* UserInfo.swift */; };
+		2E13CB52299170A600A34317 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E13CB51299170A600A34317 /* ForgotPasswordView.swift */; };
+		2E13CB542992C7F600A34317 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E13CB532992C7F600A34317 /* ImagePicker.swift */; };
+		2E13CB562992CA3600A34317 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E13CB552992CA3600A34317 /* SettingsView.swift */; };
 		2E2EA90C2927FECB00CE4057 /* New_Wave_StoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA90B2927FECB00CE4057 /* New_Wave_StoreApp.swift */; };
 		2E2EA90E2927FECB00CE4057 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA90D2927FECB00CE4057 /* ContentView.swift */; };
 		2E2EA9102927FECC00CE4057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2EA90F2927FECC00CE4057 /* Assets.xcassets */; };
@@ -20,6 +25,13 @@
 		2E2EA940292C074D00CE4057 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA93F292C074D00CE4057 /* ProductListView.swift */; };
 		2E2EA942292E65DB00CE4057 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA941292E65DB00CE4057 /* HomeView.swift */; };
 		2E2EA9442935307400CE4057 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA9432935307400CE4057 /* ProductDetailView.swift */; };
+		2E2EA946293915C300CE4057 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA945293915C300CE4057 /* Cart.swift */; };
+		2E2EA9482939198C00CE4057 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA9472939198C00CE4057 /* CartView.swift */; };
+		2E2EA94A293919AB00CE4057 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2EA949293919AB00CE4057 /* CartItemView.swift */; };
+		2EF37D8A298ADE9C00C99C73 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF37D89298ADE9C00C99C73 /* AuthenticationView.swift */; };
+		2EF37D8C298AE15F00C99C73 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF37D8B298AE15F00C99C73 /* LogInView.swift */; };
+		2EF37D8E298AE31500C99C73 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF37D8D298AE31500C99C73 /* SignUpView.swift */; };
+		FFAAA3602019CAF782A3FF20 /* Pods_New_Wave_Store.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6A7CAE86C7813AE76B19A /* Pods_New_Wave_Store.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E13CB4D298C3ECD00A34317 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E13CB4F29916AC100A34317 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		2E13CB51299170A600A34317 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		2E13CB532992C7F600A34317 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2E13CB552992CA3600A34317 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2E2EA9082927FECB00CE4057 /* New Wave Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Wave Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2EA90B2927FECB00CE4057 /* New_Wave_StoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_StoreApp.swift; sourceTree = "<group>"; };
 		2E2EA90D2927FECB00CE4057 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +73,15 @@
 		2E2EA93F292C074D00CE4057 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		2E2EA941292E65DB00CE4057 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2E2EA9432935307400CE4057 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		2E2EA945293915C300CE4057 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		2E2EA9472939198C00CE4057 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		2E2EA949293919AB00CE4057 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		2EF37D89298ADE9C00C99C73 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		2EF37D8B298AE15F00C99C73 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		2EF37D8D298AE31500C99C73 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		BA49F9D2A7A912CB3B1F5D16 /* Pods-New Wave Store.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Wave Store.debug.xcconfig"; path = "Target Support Files/Pods-New Wave Store/Pods-New Wave Store.debug.xcconfig"; sourceTree = "<group>"; };
+		E528404430C2DCDA40031E8D /* Pods-New Wave Store.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New Wave Store.release.xcconfig"; path = "Target Support Files/Pods-New Wave Store/Pods-New Wave Store.release.xcconfig"; sourceTree = "<group>"; };
+		F5A6A7CAE86C7813AE76B19A /* Pods_New_Wave_Store.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New_Wave_Store.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFAAA3602019CAF782A3FF20 /* Pods_New_Wave_Store.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BEF4FD4538BB764260FE789 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA49F9D2A7A912CB3B1F5D16 /* Pods-New Wave Store.debug.xcconfig */,
+				E528404430C2DCDA40031E8D /* Pods-New Wave Store.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2E2EA8FF2927FECB00CE4057 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +126,8 @@
 				2E2EA91B2927FECD00CE4057 /* New Wave StoreTests */,
 				2E2EA9252927FECD00CE4057 /* New Wave StoreUITests */,
 				2E2EA9092927FECB00CE4057 /* Products */,
+				1BEF4FD4538BB764260FE789 /* Pods */,
+				EFDA91625481CB4457B5E359 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +144,11 @@
 		2E2EA90A2927FECB00CE4057 /* New Wave Store */ = {
 			isa = PBXGroup;
 			children = (
+				2EF37D88298ADE5A00C99C73 /* Authentication */,
 				2E2EA9382928072C00CE4057 /* Model */,
 				2E2EA9372928071200CE4057 /* Views */,
 				2E2EA90B2927FECB00CE4057 /* New_Wave_StoreApp.swift */,
+				2E13CB4D298C3ECD00A34317 /* GoogleService-Info.plist */,
 				2E2EA90F2927FECC00CE4057 /* Assets.xcassets */,
 				2E2EA9112927FECC00CE4057 /* Preview Content */,
 			);
@@ -143,10 +183,14 @@
 		2E2EA9372928071200CE4057 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2E13CB532992C7F600A34317 /* ImagePicker.swift */,
 				2E2EA90D2927FECB00CE4057 /* ContentView.swift */,
 				2E2EA93F292C074D00CE4057 /* ProductListView.swift */,
 				2E2EA941292E65DB00CE4057 /* HomeView.swift */,
 				2E2EA9432935307400CE4057 /* ProductDetailView.swift */,
+				2E2EA9472939198C00CE4057 /* CartView.swift */,
+				2E2EA949293919AB00CE4057 /* CartItemView.swift */,
+				2E13CB552992CA3600A34317 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,11 +198,32 @@
 		2E2EA9382928072C00CE4057 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E13CB4F29916AC100A34317 /* UserInfo.swift */,
 				2E2EA935292803CD00CE4057 /* Product.swift */,
 				2E2EA939292808BF00CE4057 /* ProductList.swift */,
 				2E2EA93D292C05A000CE4057 /* Constants.swift */,
+				2E13CB51299170A600A34317 /* ForgotPasswordView.swift */,
+				2E2EA945293915C300CE4057 /* Cart.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2EF37D88298ADE5A00C99C73 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2EF37D89298ADE9C00C99C73 /* AuthenticationView.swift */,
+				2EF37D8B298AE15F00C99C73 /* LogInView.swift */,
+				2EF37D8D298AE31500C99C73 /* SignUpView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EFDA91625481CB4457B5E359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A6A7CAE86C7813AE76B19A /* Pods_New_Wave_Store.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2EA92C2927FECD00CE4057 /* Build configuration list for PBXNativeTarget "New Wave Store" */;
 			buildPhases = (
+				99EB34671AE02B995362DD69 /* [CP] Check Pods Manifest.lock */,
 				2E2EA9042927FECB00CE4057 /* Sources */,
 				2E2EA9052927FECB00CE4057 /* Frameworks */,
 				2E2EA9062927FECB00CE4057 /* Resources */,
+				E15CDCED7D120D33533FB44E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,6 +334,7 @@
 			files = (
 				2E2EA9132927FECC00CE4057 /* Preview Assets.xcassets in Resources */,
 				2E2EA9102927FECC00CE4057 /* Assets.xcassets in Resources */,
+				2E13CB4E298C3ECD00A34317 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,19 +354,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99EB34671AE02B995362DD69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-New Wave Store-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15CDCED7D120D33533FB44E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-New Wave Store/Pods-New Wave Store-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-New Wave Store/Pods-New Wave Store-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-New Wave Store/Pods-New Wave Store-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E2EA9042927FECB00CE4057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2EA94A293919AB00CE4057 /* CartItemView.swift in Sources */,
+				2E2EA9482939198C00CE4057 /* CartView.swift in Sources */,
+				2E13CB52299170A600A34317 /* ForgotPasswordView.swift in Sources */,
+				2E13CB562992CA3600A34317 /* SettingsView.swift in Sources */,
+				2E13CB542992C7F600A34317 /* ImagePicker.swift in Sources */,
+				2EF37D8A298ADE9C00C99C73 /* AuthenticationView.swift in Sources */,
 				2E2EA940292C074D00CE4057 /* ProductListView.swift in Sources */,
+				2E2EA946293915C300CE4057 /* Cart.swift in Sources */,
 				2E2EA9442935307400CE4057 /* ProductDetailView.swift in Sources */,
 				2E2EA942292E65DB00CE4057 /* HomeView.swift in Sources */,
 				2E2EA93E292C05A000CE4057 /* Constants.swift in Sources */,
 				2E2EA90E2927FECB00CE4057 /* ContentView.swift in Sources */,
 				2E2EA93A292808BF00CE4057 /* ProductList.swift in Sources */,
+				2EF37D8E298AE31500C99C73 /* SignUpView.swift in Sources */,
 				2E2EA90C2927FECB00CE4057 /* New_Wave_StoreApp.swift in Sources */,
 				2E2EA936292803CD00CE4057 /* Product.swift in Sources */,
+				2E13CB5029916AC100A34317 /* UserInfo.swift in Sources */,
+				2EF37D8C298AE15F00C99C73 /* LogInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +571,7 @@
 		};
 		2E2EA92D2927FECD00CE4057 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA49F9D2A7A912CB3B1F5D16 /* Pods-New Wave Store.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +601,7 @@
 		};
 		2E2EA92E2927FECD00CE4057 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E528404430C2DCDA40031E8D /* Pods-New Wave Store.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
